@@ -80,7 +80,7 @@
 
 Создаём *C# Script*, в нём нас интересует добавление библиотеки **SceneManagement** для управления сценой. Прописываем два метода, входа в игру и выхода из неё.
 
-```с#
+```c#
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
