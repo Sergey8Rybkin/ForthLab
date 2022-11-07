@@ -95,3 +95,13 @@ public class MainMenuScript : MonoBehaviour
     }
 }
 ```
+
+Остаётся включить. Создаём пустой объект *Main menu* в него закидываем наш скрипт. Далее заходим в кнопку `Play` и в ней *"по нажатию"* добавляем Главное Меню и выбираем интересующий нас метод PlayGame.
+
+![image](https://user-images.githubusercontent.com/100475554/200416019-4a0a07f2-3988-4115-a1c9-3dc88d09a3d0.png)
+
+Далее остаётся только добавить наши обе сцены в раздел "Build" и всё заработает.
+
+![image](https://user-images.githubusercontent.com/100475554/200416169-abb5d783-75fc-4d0a-9425-b1f7a32df352.png)
+### Проверяем работу
+![unknown_2022 11 08-02 10_1](https://user-images.githubusercontent.com/100475554/200417116-0947dac0-2b67-4087-8e2d-00eb34879e7f.gif)
