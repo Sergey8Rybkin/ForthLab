@@ -114,4 +114,5 @@ public class MainMenuScript : MonoBehaviour
 ![image](https://user-images.githubusercontent.com/100475554/200644167-42340174-ae67-40ec-b7b6-e5561c21ba6f.png)
 
 ### А так выглядит работа в *Unity*
-![unknown_2022 11 08-23 20_1](https://user-images.githubusercontent.com/100475554/200644864-0fb7d203-70ae-471f-8185-b9757f7121bd.gif)
+
+![unknown_2022 11 08-23 20_1](https://user-images.githubusercontent.com/100475554/200645189-26b8bb4c-d2b0-4791-826a-83fbe192f15c.gif)
