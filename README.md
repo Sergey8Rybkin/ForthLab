@@ -110,4 +110,8 @@ public class MainMenuScript : MonoBehaviour
 Теперь без кода нужно настроить поведение кнопок по нажатию. 
 
 Такие я сделал настройки для кнопки `Options`, и обратные для *Back*
+
 ![image](https://user-images.githubusercontent.com/100475554/200644167-42340174-ae67-40ec-b7b6-e5561c21ba6f.png)
+
+### А так выглядит работа в *Unity*
+![unknown_2022 11 08-23 20_1](https://user-images.githubusercontent.com/100475554/200644864-0fb7d203-70ae-471f-8185-b9757f7121bd.gif)
