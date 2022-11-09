@@ -116,4 +116,43 @@ public class MainMenuScript : MonoBehaviour
 ### А так выглядит работа в *Unity*
 ![unknown_2022 11 08-23 20_1](https://user-images.githubusercontent.com/100475554/200645513-15c56587-3ce6-4af0-b638-78a9d41fe50d.gif)
 
+Нужно сделать паузу. Для этого нам нужен новый скрипт, и две панели, одна для текста, другая для непрозрачного фона. 
+В скрипте нам нужно изменять значение *timeScale*. Пишем скрипт ниже, и в разделе *Inspector* добавляем наши настроенные панели
 
+```c#
+using UnityEngine.SceneManagement;
+
+public class PauseScript : MonoBehaviour
+{
+    private bool paused = false;
+
+    public GameObject textPanel;
+    public GameObject panel;
+
+    void Update() 
+    {
+        if (Input.GetKeyDown(KeyCode.Space)){
+            if (!paused){
+                Time.timeScale = 0;
+                paused = true;
+                panel.SetActive(true);
+                textPanel.SetActive(true);
+            }
+            else {
+                Time.timeScale = 1;
+                paused = false;
+                panel.SetActive(false);
+                textPanel.SetActive(false);
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        }
+    }
+
+}
+
+```
+
+### Получаем такой результат
+![unknown_2022 11 09-15 21_1](https://user-images.githubusercontent.com/100475554/200806197-97a17672-3af6-43cc-8437-c960d243f016.gif)
