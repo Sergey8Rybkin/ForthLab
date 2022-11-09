@@ -156,3 +156,5 @@ public class PauseScript : MonoBehaviour
 
 ### Получаем такой результат
 ![unknown_2022 11 09-15 21_1](https://user-images.githubusercontent.com/100475554/200806197-97a17672-3af6-43cc-8437-c960d243f016.gif)
+
+Сделаем нашу игру более живой, добавив в неё звуков.
