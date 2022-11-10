@@ -204,3 +204,5 @@ audioSource = GetComponent<AudioSource>();
 
 На стартовой сцене я добавил через меню UI слайдер.
 ![image](https://user-images.githubusercontent.com/100475554/201149806-a6ad8125-8f98-474d-ad8e-db173725837b.png)
+
+Работу звуков и игры вы можете увидеть по [ссылке на игру](https://yandex.ru/games/app/198497?draft=true&lang=ru)
