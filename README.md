@@ -197,3 +197,10 @@ audioSource = GetComponent<AudioSource>();
 ![unknown_2022 11 10-18 51_1](https://user-images.githubusercontent.com/100475554/201112130-a4f35fbc-f89c-459d-9687-748c33c19c44.gif)
 
 ## Задание 3.
+
+Для того чтобы сделать контроль звука нам нужны две вещи
+1. Слайдер
+2. Скрипт который будет передавать значения слайдера и менять звук
+
+На стартовой сцене я добавил через меню UI слайдер.
+![image](https://user-images.githubusercontent.com/100475554/201149806-a6ad8125-8f98-474d-ad8e-db173725837b.png)
