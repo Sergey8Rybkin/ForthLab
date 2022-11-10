@@ -205,4 +205,55 @@ audioSource = GetComponent<AudioSource>();
 На стартовой сцене я добавил через меню UI слайдер.
 ![image](https://user-images.githubusercontent.com/100475554/201149806-a6ad8125-8f98-474d-ad8e-db173725837b.png)
 
+Реализацию слайдера и звуков сделал с помощью двух скриптов
+
+```c#
+using UnityEngine.UI;
+
+public class SliderCTRL : MonoBehaviour
+{
+
+    public GameObject AudioSource;
+
+    public float oldVolume;
+    public Slider slider;
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+        oldVolume = slider.value;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (oldVolume != slider.value){
+            PlayerPrefs.SetFloat("volume", slider.value);
+            PlayerPrefs.Save();
+            oldVolume = slider.value;
+        }
+
+    }
+}
+```
+
+```c#
+public class AudioCTRL : MonoBehaviour
+{
+    public AudioSource audio_;
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        audio_.volume = PlayerPrefs.GetFloat("volume");
+    }
+}
+
+```
+
 Работу звуков и игры вы можете увидеть по [ссылке на игру](https://yandex.ru/games/app/198497?draft=true&lang=ru)
