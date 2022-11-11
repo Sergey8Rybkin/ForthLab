@@ -210,8 +210,9 @@ audioSource = GetComponent<AudioSource>();
 
 Последним примером приведу одну из особенностей сборки под WebGL. Дело в том что в Unity собирая проект есть параметр ***Development Build*** необходимый для отладки и тестировки приложения. Но для WebGl функция ***Script Debugging*** недоступна, тк билд собирается несколько иначе, чем под другие платформы.
 
-![image](https://user-images.githubusercontent.com/100475554/201335577-da20aa0c-d2ac-479e-982d-a5e0811504d1.png)
-![image](https://user-images.githubusercontent.com/100475554/201335629-c8148730-3869-4c87-be00-74925c3eb281.png)
+![image](https://user-images.githubusercontent.com/100475554/201335733-3b531b39-0031-4293-b875-531775adae4f.png)
+![image](https://user-images.githubusercontent.com/100475554/201335751-8017c0b8-7e37-4c21-91c0-abf5b099d165.png)
+
 
 
 Таким образом каждая платформа может иметь свои различия в сборке, начиная от размера проекта до отладки, и все эти моменты нужно учитывать.
